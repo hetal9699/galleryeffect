@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.border-gradient {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(45deg, purple, hotpink, red, orange);
+    border-radius: 5px;
+}
+.backgroundimg{
+    background-image: url(../images/f120f1bdde457ba9208083e5d9e957d5.gif);
+    background-size: cover;
+    background-position: center;
+}
+/* profilebar section start  */
+.profilebar {
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    background-color: #f2f3f7;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    color:#4b4b4d;
+    border: 1px solid #4b4b4d56;
+}
+
+.profileimage {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 0px 20px;
+    margin-top: 25px;
+    image-resolution: 200dpi;
+}
+
+
+
+
+
+
+/* profilebar section eng */
+/* content section start */
+.content{
+    overflow: auto;
+    float:right;
+    width: 80%;
+}
+/* front page section start */
+.frontpage{
+    padding: 100px 0px 120px 100px ;
+    display: block;
+}
+.backpage{
+    padding: 200px 100px 400px 100px ;
+    display: none;
+}
+.animationtitle{
+    animation-iteration-count:1;
+    animation-delay: 1s;
+}
+.profileimg{
+    height: 600px;
+    width: 200px;
+}
+.frontpageimg{
+    height: 450px;
+    width: 400px;
+}
+.headingfont{
+    font-size: 80px;
+    background-image: url(../images/f120f1bdde457ba9208083e5d9e957d5.gif);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+/* front page section end */
+/* about section start */
+.experticecircle{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: -70px;
+    left: 30%;
+}
+.marginbotton{
+margin: 0px 0 20px 0;
+}
+.pcircle{
+    width: 15px;
+    height: 15px;
+}
+/* about section end */
+/* content section end */
+@media only screen and (max-width:576px) {
+    .profilebar{
+        height: 750px;
+        width: 100%;
+        float: none;
+        position: static;
+    }
+    .content{
+        width: 100%;
+        float: none;
+    }
+    .frontpageimg{
+        height: 600px;
+        width: 200px;
+    }
+}
