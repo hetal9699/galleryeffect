@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image1{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/galleryimg3.webp);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.image1::after {
+    content: '';
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.349);
+   top:-30px;
+   left:-20px;
+   border-radius: 50%;
+
+    transition: 1s;
+}
+
+.image1:hover::after {
+    background-image: url(../image/btrKhH.jpg);
+    background-size: inherit;
+    background-position: top center;
+    background-clip: content-box;
+    border-right: none;
+    top:-190px;
+    left:-190px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.image2{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/gallery\ img2.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.image2::after {
+    content: '';
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.349);
+   top:0%;
+   left: 0;
+
+    transition: 1s;
+}
+
+.image2:hover::after {
+    
+    border-right: none;
+    top:100%;
+}
+.image3{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/galleryimg6.png);
+    background-size: cover;
+    overflow: hidden;
+}
+.image3::after {
+    content: '';
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.349);
+   top:-40px;
+   right:-30px;
+   border-radius: 50%;
+
+    transition: 1s;
+}
+
+.image3:hover::after {
+    top:-190px;
+    right:-190px;
+}
+.image4{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/photo-1459712105412-be146fae746d.jfif);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.image4::after {
+    content: '';
+   
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    box-sizing: border-box;
+   
+   
+   top:-40px;
+   right:-40px;
+   border-radius: 50%;
+   background-color: rgba(0, 0, 0, 0.349);
+
+    transition: 1s;
+}
+
+.image4:hover::after {
+    height: 0;
+    width: 0;
+
+    top:50%;
+    right:50%;
+   border-radius: 50%;
+
+}
+.image5{
+    height: 150;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/sunset-captions-for-instagram-10.jpgw3.webp);
+    background-size: cover;
+    overflow: hidden;
+}
+.image5::after {
+    content: '';
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.349);
+
+    top:-40px;
+    right:-40px;
+    transition: 1s;
+}
+
+.image5:hover::after {
+   
+    height: 0;
+    width: 0;
+    
+
+    
+    top:50%;
+    right:50%;
+   
+
+}
+.image6{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/Banff.jpeg);
+    background-size: cover;
+    overflow: hidden;
+
+}
+.image6::after {
+    content: '';
+    height:220px;
+    width: 220px;
+    position: absolute;
+    box-sizing: border-box;
+    top:-40px;
+    right:-40px;
+    transform: rotate(45deg);
+    background-color:rgba(0, 0, 0, 0.349);
+
+    transition: 1s;
+}
+
+.image6:hover::after {
+    width: 0px;
+    height: 0px;
+
+  
+    transform: rotate(45deg);
+   
+
+    top:50%;
+    right:50%;
+   
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.image7{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/Blog-Photos-Landscape-2021-05-27T202845.111-1024x576.jpg);
+    background-size: cover;
+    background-position: left;
+    overflow: hidden;
+}
+
+.image7::after {
+    content: '';
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.349);
+  
+   top:-80px;
+   right:-80px;
+   border-radius: 50%;
+
+    transition: 1s;
+}
+
+.image7:hover::after {
+  
+    top:120px;
+    right:120px;
+}
+.image8{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/SIGMA-Magnus-Winbj_rk-moose-calf-150-600mm.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.image8::after {
+    content:'';
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.349);
+   top:0%;
+   left: 0;
+    transition: 1s;
+}
+
+.image8:hover::after {
+  
+    top:-100%;
+    left: 0;
+}
+.image9{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-image: url(../images/15481b7a29525fdca63725cc85646068--sunset-photography-inspiring-photography.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.image9::after {
+    content: '';
+    height: 270px;
+    width: 270px;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.349);
+  
+   top:-40px;
+    right:-90px;
+   border-radius: 50%;
+
+    transition: 1s;
+}
+
+ .image9:hover::after {
+    background-image: url(../image/btrKhH.jpg);
+    background-size: inherit;
+    background-position: top center;
+    background-clip: content-box;
+    border-right: none;
+    top:270px;
+    right:-270px;
+} 
+
